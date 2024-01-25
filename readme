@@ -1,0 +1,12 @@
+salario = float(input("Qual seu salário? ")) 
+if salario >= 1250:
+    aument = salario * (10 / 100)
+    result = aument
+    total = salario + aument
+    print(f'Seu aumento foi de: {aument} salário atualizado: {total}')
+else:
+    if salario <= 1250:
+        aumento = salario * (15 / 100)
+        resultado = aumento
+        total1 = salario + aumento
+        print(f'Seu aumento foi de: {resultado} salário atualizado {total1}')
